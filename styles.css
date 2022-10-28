@@ -9,10 +9,12 @@ body {
 }
 
 /* Flex Configure */
-
+.Nav-all {
+    width: 480px;
+}
 .Nav-all ul{
     margin: 0 20px;
-   /* border: 1px solid black; added incase of measurement */
+    /* included incase of measurement border: 1px solid black; */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -29,29 +31,30 @@ body {
 }
 
 .menuNav{
-    margin: 20px 15px 20px;
-    height: 17px;
-    width: 20px;
+    margin-top: 23px;
+    margin-right: 5px;
+    height: 30px;
+    width: 38px;
 
 }
 
 
 li .image {
-   padding: 0;
-   width: 100%;
+   width: 140px;
+   height: 100px;
 }
 
 /* Main Section */
 
 .My_Name{
-    margin-top: 70px;
-    width: 220px;
+    margin-top: 100px;
+    width: 230px;
     height: 100px;
-    margin-left: 36px;
+    margin-left: 37px;
     font-family:'Playfair Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 100%;
 }
 .all-Container {
@@ -93,7 +96,7 @@ li .image {
     margin-left: 0.3%;
     margin-right: -99.69%;
     margin-top: 7%;
-    width: 496px;
+    width: 485px;
     height: 250px;
     margin-bottom: 20px;
     display: flex;
