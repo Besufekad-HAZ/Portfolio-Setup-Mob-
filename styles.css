@@ -1,6 +1,6 @@
 html {
     box-sizing:border-box;
-    margin: 0px;
+    margin: 0;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 /* Flex Configure */
 
 .Nav-all ul{
-    margin: 0 auto;
+    margin: 0 20px;
    /* border: 1px solid black; added incase of measurement */
     list-style: none;
     margin: 0;
@@ -29,8 +29,8 @@ body {
 }
 
 .menuNav{
-    margin: 20px 20px;
-    height: 14px;
+    margin: 20px 15px 20px;
+    height: 17px;
     width: 20px;
 
 }
@@ -40,3 +40,64 @@ li .image {
    padding: 0;
    width: 100%;
 }
+
+/* Main Section */
+
+.My_Name{
+    margin-top: 70px;
+    width: 220px;
+    height: 100px;
+    margin-left: 36px;
+    font-family:'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+}
+.all-Container {
+    align-items: center;
+    margin-top: 0;
+
+}
+.Details {
+   width: 410px;
+   height: 130px;
+   margin-left: 37px;
+   margin-top: 22px; 
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 35px;
+   letter-spacing: -0.01em;
+}
+ 
+#btn {
+    box-sizing:border-box;
+    height: 80px;
+    width: 288px;
+    margin-left: 106px;
+    margin-top: 100px;
+    border-radius: 0px;
+    color: white;
+    background-color: #1a2236;
+    border-radius:0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+
+
+.footer_image {
+    margin-left: 0.3%;
+    margin-right: -99.69%;
+    margin-top: 7%;
+    width: 496px;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* #btn .txt {} */
