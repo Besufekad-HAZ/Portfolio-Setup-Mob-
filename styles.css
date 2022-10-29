@@ -1,42 +1,246 @@
-html {
-    box-sizing:border-box;
-    margin: 0px;
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: #ffffff;
-    margin: 0;
+.head {
+  flex-direction: row-reverse;
+  align-items: center;
+  background-image: url(img/image_geometry_1.png);
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
 }
 
-/* Flex Configure */
-
-.Nav-all ul{
-    margin: 0 auto;
-   /* border: 1px solid black; added incase of measurement */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
- 
+.menu-bar {
+  padding-right: 16px;
+  display: inline-block;
+  cursor: pointer;
 }
 
-
-.menuNav:hover {
-    background: rgba(87, 89, 53, 0.3);
-    width: fit-content;
+.line1,
+.line2,
+.line3 {
+  width: 35px;
+  height: 3px;
+  background-color: #1a2236;
+  margin: 6px 0;
 }
 
-.menuNav{
-    margin: 20px 20px;
-    height: 14px;
-    width: 20px;
-
+.name {
+  width: 220px;
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
+.prj {
+  width: 120px;
+  color: #010613;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  margin-left: 16px;
+}
 
-li .image {
-   padding: 0;
-   width: 100%;
+.info {
+  color: #1a2236;
+  line-height: 21px;
+  margin-top: 20px;
+}
+
+.main-section {
+  padding: 30px 16px 30px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 30px;
+  width: 100%;
+  border: none;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid black;
+}
+
+.vec-image {
+  background-image: url(img/Thur.png);
+  height: 320px;
+  background-size: contain;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+
+/* Second Section */
+.project h1 {
+  padding: 0 0 30px 16px;
+}
+
+.Project_types {
+  width: 100%;
+  justify-content: center;
+  background-color: #1a2236;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.proj_image {
+  min-width: 100%;
+  margin-top: -2px;
+}
+
+.proj_details {
+  height: 156px;
+  margin: 0;
+  padding: 5px 0 16px 20px;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.proj_title {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.language_used {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.language_used li {
+  color: #1a2236;
+  background: #98dede;
+  padding: 7px 10px;
+  width: auto;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.info_bt li {
+  margin-left: -22px;
+  font-weight: 600;
+}
+
+.language_used li:hover {
+  color: #a5ebeb;
+  background: #1a2236;
+  padding: 7px 10px;
+  width: auto;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.proj_view {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 9px 20px;
+  border: 1px solid white;
+  margin-top: 10px;
+  width: 205px;
+  height: 44px;
+}
+
+.proj_view:hover {
+  color: #1a2236;
+  background: white;
+}
+
+.get-btn {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 30px;
+  width: 100%;
+  border: none;
+}
+
+.get-btn:hover {
+  color: #1a2236;
+  background: white;
+  border: 2px solid rgb(10, 10, 58);
+}
+
+#down-icon {
+  margin-left: 12px;
+}
+
+.info_bt {
+  height: 200px;
+  color: white;
+  padding: 70px;
+  margin-top: 40px;
+}
+
+.info_bt h3 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+#lang {
+  background: #1c528a;
+  background-image: url(img/hash.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#frame {
+  background: #e2505c;
+  background-image: url(img/groupbox.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#skill {
+  background: #febf52;
+  background-image: url(img/ic_skills.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
