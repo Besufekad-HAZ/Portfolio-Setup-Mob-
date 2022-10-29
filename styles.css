@@ -117,9 +117,44 @@
   font-weight: 300;
 }
 
+a {
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 .language_used li {
   color: #1a2236;
   background: #98dede;
+  padding: 7px 10px;
+  width: auto;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.info_bt li {
+  margin-left: -22px;
+  font-weight: 600;
+}
+
+.language_used li:hover {
+  color: #a5ebeb;
+  background: #1a2236;
   padding: 7px 10px;
   width: auto;
   list-style: none;
@@ -176,11 +211,6 @@
 .info_bt h3 {
   font-weight: 800;
   margin-bottom: 20px;
-}
-
-.info_bt li {
-  margin-left: -22px;
-  font-weight: 600;
 }
 
 #lang {
