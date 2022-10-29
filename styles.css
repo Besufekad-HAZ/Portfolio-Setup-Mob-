@@ -187,21 +187,21 @@
 
 #lang {
   background: #1c528a;
-  background-image: url(assets/hash.svg);
+  background-image: url(img/hash.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 #frame {
   background: #e2505c;
-  background-image: url(assets/groupbox.png);
+  background-image: url(img/groupbox.png);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 #skill {
   background: #febf52;
-  background-image: url(assets/ic_skills.svg);
+  background-image: url(img/ic_skills.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
