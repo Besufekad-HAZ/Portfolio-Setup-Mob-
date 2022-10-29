@@ -1,102 +1,74 @@
-html {
-  box-sizing: border-box;
+* {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: #fff;
-  margin: 0;
-}
-
-/* Flex Configure */
-.Nav-all {
-  width: 480px;
-}
-
-.Nav-all ul {
-  margin: 0 20px;
-
-  /* included incase of measurement border: 1px solid black; */
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
+.head {
+  height: 74px;
+  flex-direction: row-reverse;
   justify-content: space-between;
-}
-
-.menuNav {
-  margin-top: 23px;
-  margin-right: 5px;
-  height: 30px;
-  width: 38px;
-}
-
-.menuNav:hover {
-  background: rgba(87, 89, 53, 0.3);
-  width: fit-content;
-}
-
-li .image {
-  width: 140px;
-  height: 100px;
-}
-
-/* Main Section */
-
-.My_Name {
-  margin-top: 100px;
-  width: 230px;
-  height: 100px;
-  margin-left: 37px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 100%;
-}
-
-.all-Container {
   align-items: center;
-  margin-top: 0;
-}
-
-.Details {
-  width: 410px;
-  height: 130px;
-  margin-left: 37px;
-  margin-top: 22px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: -0.01em;
-}
-
-#btn {
-  box-sizing: border-box;
-  height: 80px;
-  width: 288px;
-  margin-left: 106px;
-  margin-top: 100px;
-  border-radius: 0;
-  color: white;
-  background-color: #1a2236;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0;
-}
-
-.footer_image {
-  margin-left: 0.3%;
-  margin-right: -99.69%;
-  margin-top: 7%;
-  width: 485px;
-  height: 250px;
-  margin-bottom: 20px;
+  background-image: url(img/image_geometry_1.png);
+  background-size: contain;
   display: flex;
-  flex-wrap: wrap;
+  background-repeat: no-repeat;
 }
 
-/* #btn .txt {} */
+.menu-bar {
+  padding-right: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 35px;
+  height: 3px;
+  background-color: #1a2236;
+  margin: 6px 0;
+}
+
+.name {
+  width: 220px;
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.info {
+  color: #1a2236;
+  margin-top: 20px;
+}
+
+.main-section {
+  padding: 30px 16px 30px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 30px;
+  width: 100%;
+  border: none;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid black;
+}
+
+.vec-image {
+  background-image: url(img/Thur.png);
+  height: 320px;
+  background-size: contain;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
