@@ -40,6 +40,7 @@
 
 .info {
   color: #1a2236;
+  line-height: 21px;
   margin-top: 20px;
 }
 
@@ -73,11 +74,14 @@
   background-repeat: no-repeat;
 }
 
+
+
+/* Second Section */
 .project h1 {
   padding: 0 0 30px 16px;
 }
 
-.work_cards {
+.Project_types {
   width: 100%;
   justify-content: center;
   background-color: #1a2236;
@@ -85,12 +89,12 @@
   grid-template-columns: 1fr;
 }
 
-.work_image {
+.proj_image {
   min-width: 100%;
   margin-top: -2px;
 }
 
-.workdetails {
+.proj_details {
   height: 156px;
   margin: 0;
   padding: 5px 0 16px 20px;
@@ -100,7 +104,7 @@
   justify-content: space-evenly;
 }
 
-.work_title {
+.proj_title {
   font-size: 24px;
   font-weight: 300;
   padding: 0;
@@ -125,20 +129,26 @@
   margin-right: 10px;
 }
 
-.seeproject {
+.proj_view {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 57%;
   background-color: transparent;
   color: white;
   font-size: 16px;
   padding: 9px 20px;
   border: 1px solid white;
   margin-top: 10px;
+  width: 205px;
+  height: 44px;
 }
 
-.cv-btn {
+.proj_view:hover {
+  color: #1a2236;
+  background: white;
+}
+
+.get-btn {
   margin-top: 20px;
   background: black;
   color: white;
@@ -148,49 +158,50 @@
   border: none;
 }
 
-#btnicon {
+.get-btn:hover {
+  color: #1a2236;
+  background: white;
+  border: 2px solid rgb(10, 10, 58);
+}
+
+#down-icon {
   margin-left: 12px;
 }
 
-.boxinfo {
+.info_bt {
   height: 200px;
   color: white;
   padding: 70px;
   margin-top: 40px;
 }
 
-.boxinfo h3 {
+.info_bt h3 {
   font-weight: 800;
   margin-bottom: 20px;
 }
 
-.boxinfo li {
+.info_bt li {
   margin-left: -22px;
   font-weight: 600;
 }
 
-#languages {
+#lang {
   background: #1c528a;
   background-image: url(assets/hash.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
-#frameworks {
+#frame {
   background: #e2505c;
   background-image: url(assets/groupbox.png);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
-#skills {
+#skill {
   background: #febf52;
   background-image: url(assets/ic_skills.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-}
-
-.seeproject:hover {
-  color: #1a2236;
-  background: white;
 }
