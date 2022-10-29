@@ -4,14 +4,14 @@
 }
 
 .head {
-  height: 74px;
   flex-direction: row-reverse;
-  justify-content: space-between;
   align-items: center;
   background-image: url(img/image_geometry_1.png);
-  background-size: contain;
   display: flex;
+  justify-content: space-between;
   background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
 }
 
 .menu-bar {
