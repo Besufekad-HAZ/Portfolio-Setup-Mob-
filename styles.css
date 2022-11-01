@@ -123,7 +123,6 @@
 .language_used {
   padding: 0;
   display: flex;
-  flex-direction: row;
   font-size: 12px;
   font-weight: 300;
 }
@@ -148,6 +147,11 @@ a:active {
   text-decoration: none;
 }
 
+.info_bt li {
+  margin-left: -22px;
+  font-weight: 600;
+}
+
 .language_used li {
   color: #1a2236;
   background: #98dede;
@@ -158,9 +162,15 @@ a:active {
   margin-right: 10px;
 }
 
-.info_bt li {
-  margin-left: -22px;
-  font-weight: 600;
+.social_media li {
+  color: #fff;
+  padding: 0;
+  margin: 0 30px;
+  width: 30px;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+  cursor: progress;
 }
 
 .language_used li:hover {
@@ -243,4 +253,202 @@ a:active {
   background-image: url(img/ic_skills.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
+}
+
+/* Footer Section */
+.footer-section {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name_2 {
+  margin-top: 104px;
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 0;
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  left: 16px;
+  line-height: 100%;
+}
+
+.info_2 {
+  color: #1a2236;
+  line-height: 21px;
+  margin-top: 185px;
+  padding-top: 20px;
+}
+
+/* Contact Form Section */
+
+footer {
+  flex-direction: column;
+  align-items: center;
+  background-image: url(img/image_geometry_1.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+}
+
+#fs-frm #card-element {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.button-section2 {
+  padding: 15px 16px 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Name-Label {
+  position: absolute;
+  left: 32px;
+  margin-top: 50px;
+  color: #c2bfd9;
+  opacity: 0.7;
+}
+
+.Email-Label {
+  position: absolute;
+  left: 32px;
+  margin-top: 44px;
+  color: #c2bfd9;
+  opacity: 0.7;
+}
+
+#fs-frm {
+  margin-top: 25px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#fs-frm-inputs #full-name {
+  padding: 25px 15px 15px;
+}
+
+#fs-frm-inputs #email-address {
+  padding: 25px 15px 15px;
+}
+
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: 0.825rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: rgb(0, 0, 0);
+  outline-offset: -1px;
+  border: 1.5px solid #010613;
+}
+
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+/* Sumbit Button section */
+
+#fs-frm-inputs #btn-2 {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  width: 450px;
+}
+
+#fs-frm-inputs #btn-2:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid black;
+}
+
+.resume_socialmedia {
+  width: 100%;
+  margin-top: 60px;
+  justify-content: center;
+  background-color: #1a2236;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.resume {
+  color: #92dcdc;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.social_media {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 10px;
+  display: flex;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#linkd {
+  color: #010613;
+  background-color: #fff;
+  padding: 3px 5px;
+  width: 25px;
 }
