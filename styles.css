@@ -3,6 +3,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Navigation and header section */
+
 .head {
   flex-direction: row-reverse;
   align-items: center;
@@ -20,6 +22,11 @@
   cursor: pointer;
 }
 
+.Menu_Desktop
+{
+  display: none;
+}
+
 .line1,
 .line2,
 .line3 {
@@ -28,6 +35,8 @@
   background-color: #1a2236;
   margin: 6px 0;
 }
+
+/* Name and Info Section  */
 
 .name {
   width: 220px;
@@ -53,12 +62,30 @@
   color: #1a2236;
   line-height: 21px;
   margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .main-section {
-  padding: 30px 16px 30px 16px;
+  padding: 30px 16px 0px 16px;
   display: flex;
   flex-direction: column;
+  /* border: 2px solid black; */
+}
+
+.first_section{
+  padding: 30px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+}
+
+.image_section {
+  padding: 0px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
 }
 
 .btn {
@@ -77,17 +104,38 @@
   border: 1px solid black;
 }
 
+/* Vec image section */
+
 .vec-image {
-  background-image: url(img/Thur.png);
-  height: 320px;
-  background-size: contain;
-  bottom: 0;
+  margin-top: 20px;
+  background-size:auto;
+  width: 100%;
+  height:auto;
   background-repeat: no-repeat;
+  /* border: 2px solid black; */
 }
 
+.vec-image-desk {
+  display: none;
+}
+
+ .vec-image-dot {
+  display: none;
+ }
+
 /* Second Section */
-.project h1 {
-  padding: 0 0 30px 16px;
+.name-prj {
+  width: 220px;
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 20px 0 auto;
+}
+.project h2 {
+  padding: 20 10 30px 16px;
+  margin-bottom: 20px;
+  border: 2px solid black;
 }
 
 .Project_types {
@@ -451,4 +499,127 @@ footer {
   background-color: #fff;
   padding: 3px 5px;
   width: 25px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+ /* Navigation and Header Section */
+
+ html {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+ }
+
+.Menu_Desktop {
+  display:flex;
+  background: #ffffff;
+  border: 2px solid black;
+  height: 100px; 
+  max-width: 1440px;
+  box-shadow: 0px 0.5px 0px #DDDFE6;
+  }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  }   
+
+nav ul li {
+  color: #000000;
+  display: inline-block;
+  padding: 10px 20px;
+  list-style-type: none;
+  flex-direction:column; 
+  justify-content: space-evenly;
+  }
+
+.head {
+  display: none;
+    }
+
+.menu-bar {
+  display: none;
+        }
+
+     /* Name and Info Section */
+.main-container {
+  display: flex;
+  margin-left: 50px;
+  border: none;
+  align-items: center;
+}
+
+.main-section{
+  /* display: flex; */
+  box-sizing: border-box;
+  }
+  
+.name {
+  width: 484px;
+  height: auto;
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
+  }
+
+.vec-image {
+  display: none;
+    }
+
+.vec-image-desk {
+  background-repeat: no-repeat;
+  display: flex;
+  flex: 2;
+  width: 702px;
+  height: 877px;
+  }
+
+.dot_contianer {
+  align-self: flex-end;
+}
+ .vec-image-dot {
+  background-repeat: no-repeat;
+  width: 175px;
+  display: flex;
+  }
+ /* .prj {
+  width: 120px;
+  color: #010613;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  margin-left: 16px;
+  } */
+    
+.info {
+  color: #1a2236;
+  line-height: 21px;
+  max-width: 484px;
+  margin-top: 40px;
+  }
+    
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  width: 254px;
+  height: 70px;
+  }
+    
+.btn:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid black;
+  }
+
+    /* Second Section */
 }
