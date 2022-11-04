@@ -474,7 +474,7 @@ textarea:focus {
     margin-left: -11rem;
     width: 40%;
     height: auto;
-    margin-top: -0px;
+    margin-top: 0;
   }
 
   .firstproject h2 {
