@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" role="navigation">
         <nav>
 
             <div class="menu_desk">
@@ -241,28 +241,28 @@
                     aliquip ex ea commodo consequat.
                 </p>
                 <form class="contact-form" action="https://formspree.io/f/xknepwnz" method="POST">
+                    <div class="name_and_email">
                     <ul class="footer-list">
-                       <div class="name_and_email">
-                            <li class="inputfield">
+                                <li class="inputfield">
                                 <label> Your name
                                     <input placeholder="Your Name" type="text" id="name" name="name" maxlength="30"
                                     required />
                                 </label>
-                            </li>
+                                </li>
                             <li class="inputfield">
                                 <label> Your email
                                     <input placeholder="Your Email" id="mail" type="email" name="email" required />
                                 </label>
                             </li>
-                        </div>
-                        <li>
+                            <li class="inputfield">
                             <textarea name="message" placeholder="Enter your message here..." maxlength="500"
                                 required></textarea>
                         </li>
-                        <li>
+                        <li class="inputfield">
                             <button class="cv-btn" type="submit">Start collaboration</button>
                         </li>
                     </ul>
+                    </div>
                 </form>
             </div>
         </div>
