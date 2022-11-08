@@ -15,9 +15,9 @@ This Project is a mobile portfolio setup
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+(Github Pages link down below)
 
-
+[Live Demo Link](https://besufekad-haz.github.io/Portfolio-Setup-Mob-/)
 ## Getting Started
 
 
