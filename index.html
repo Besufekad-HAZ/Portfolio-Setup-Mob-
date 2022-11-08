@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class="header" role="navigation">
+    <header class="header">
         <nav>
 
             <div class="menu_desk">
@@ -38,11 +38,12 @@
             </div>
         </nav>
     </header>
-    <section class="info-section" id="hello">
+    <main>
+      <section class="info-section" id="hello">
         <div class="desktop_about">
-            <h2 class="title">
+            <h1 class="title">
                 Besufekad <br> Alemu
-            </h2>
+            </h1>
             <p class="about">
                 Hello! I am a software developer! I can help you build a product,
                 feature or website. Taka a look of my works. If you like what you see
@@ -54,11 +55,9 @@
         </div>
         <div class="infoimg"></div>
         
-    </section>
-        <div class="bgimage"></div>
-    
-    
-    <section class="project">
+      </section>
+      <div class="bgimage"></div>
+      <section class="project">
     <div class="firstproject">
         <div class="firstproject_name">
             <h2 class="title">Projects</h2>
@@ -171,10 +170,8 @@
 
 
 
-    </section>
-
-
-    <section class="info-section" id="about-section">
+      </section>
+      <section class="info-section" id="about-section">
 
         <div class="about-me">
             <h2 class="title">About</h2>
@@ -227,8 +224,8 @@
         </div>
 
 
-    </section>
-
+      </section>
+    </main>
     <footer>
         <div class="footer-head"></div>
 
@@ -241,28 +238,28 @@
                     aliquip ex ea commodo consequat.
                 </p>
                 <form class="contact-form" action="https://formspree.io/f/xknepwnz" method="POST">
-                    <div class="name_and_email">
-                    <ul class="footer-list">
-                                <li class="inputfield">
-                                <label> Your name
-                                    <input placeholder="Your Name" type="text" id="name" name="name" maxlength="30"
-                                    required />
-                                </label>
-                                </li>
-                            <li class="inputfield">
-                                <label> Your email
-                                    <input placeholder="Your Email" id="mail" type="email" name="email" required />
-                                </label>
-                            </li>
-                            <li class="inputfield">
-                            <textarea name="message" placeholder="Enter your message here..." maxlength="500"
-                                required></textarea>
+                  <div class="name_and_email">
+                      <ul class="footer-list">
+                        <li class="inputfield">
+                        <label> Your name
+                            <input placeholder="Your Name" type="text" id="name" name="name" maxlength="30"
+                            required />
+                        </label>
                         </li>
                         <li class="inputfield">
+                            <label> Your email
+                                <input placeholder="Your Email" id="mail" type="email" name="email" required />
+                            </label>
+                        </li>
+                        <li>
+                          <textarea name="message" placeholder="Enter your message here..." maxlength="500"
+                            required></textarea>
+                        </li>
+                        <li>
                             <button class="cv-btn" type="submit">Start collaboration</button>
                         </li>
-                    </ul>
-                    </div>
+                      </ul>
+                  </div>
                 </form>
             </div>
         </div>
@@ -293,5 +290,4 @@
         </div>
     </footer>
 </body>
-
 </html>
